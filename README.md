@@ -1,6 +1,8 @@
 # tubes_provis_kel10
 # data_upi
 
+# fatal error : push 
+
 # Kelompok 10
 # anggota kelompok
 
