@@ -1,6 +1,10 @@
 # tubes_provis_kel10
 # data_upi
 
+fatal: unable to access 'https://github.com/sudirman-nur-putra/tubes_provi
+0.git/': Could not resolve proxy: proxy.server.com
+
+
 # fatal error : push 
 
 # Kelompok 10
