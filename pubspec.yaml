@@ -59,7 +59,14 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/
+    - assets/background.png
+    - assets/logoupi.png
+    - assets/upi_logo_smallcopy.png
+    - assets/header.png
+    - assets/banner_berita.jpg
+    - assets/berita2.jpg
+    - assets/berita3.jpeg
+    - assets/berita4.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
