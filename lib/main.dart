@@ -50,12 +50,12 @@ class MyAppState extends State<MyApp> {
     switch (idx) {
       case 0:
         {
-          return const LandingPage();
+          return const Home();
         }
 
       case 1:
         {
-          return const Home();
+          return const Fakultas();
         }
     }
   }
