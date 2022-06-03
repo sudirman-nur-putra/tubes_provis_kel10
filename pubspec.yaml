@@ -67,6 +67,10 @@ flutter:
     - assets/berita2.jpg
     - assets/berita3.jpeg
     - assets/berita4.png
+    - assets/berita21x1.jpg
+    - assets/berita31x1.jpeg
+    - assets/berita41x1.png
+    - assets/iamge9.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
