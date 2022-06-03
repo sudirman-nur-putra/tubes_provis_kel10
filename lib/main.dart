@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Home.dart';
 import 'Fakultas.dart';
-import 'LandingPage.dart';
+// import 'LandingPage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,12 +36,16 @@ class MyAppState extends State<MyApp> {
           selectedItemColor: Colors.red,
           onTap: onItemTap,
           items: const <BottomNavigationBarItem>[
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.school), label: "Fakultas"),
-            BottomNavigationBarItem(icon: Icon(Icons.school), label: "Dosen"),
+                icon: Icon(Icons.home, color: Colors.black), label: 'Home'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.school), label: "Mahasiswa"),
+                icon: Icon(Icons.account_balance_rounded, color: Colors.black),
+                label: "Fakultas"),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.school, color: Colors.black), label: "Dosen"),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.school_outlined, color: Colors.black),
+                label: "Mahasiswa"),
           ]),
     ));
   }
